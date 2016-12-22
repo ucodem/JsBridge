@@ -25,7 +25,7 @@ dependencies {
 
 def siteUrl = 'https://github.com/lzyzsd/JsBridge'
 def gitUrl = 'https://github.com/lzyzsd/JsBridge.git'
-group = "com.github.lzyzsd.jsbridge"
+group = "com.github.ucodem.jsbridge"
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
     classifier = 'sources'
